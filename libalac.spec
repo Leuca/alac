@@ -51,8 +51,7 @@ autoreconf -fi
 
 %files devel
 %{_libdir}/%{name}.so
-%{_libdir}/%{name}.a
-%{_libdir}/%{name}.la
+%{_libdir}/%{name}.*a
 %{_libdir}/pkgconfig/alac.pc
 %{_includedir}/alac/*
 
