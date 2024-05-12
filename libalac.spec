@@ -38,6 +38,8 @@ Command line tool alacconvert that accepts CAF/WAVE files containing pcm data fo
 {{{ git_dir_setup_macro }}}
 
 %build
+# Rename README.md to README for automake
+mv README.md README
 autoreconf -fi
 %configure --enable-example
 %make_build
