@@ -59,4 +59,4 @@ autoreconf -fi
 %{_bindir}/alacconvert
 
 %changelog
-{{{ git_dir_changelog }}}
+%autochangelog
